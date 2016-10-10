@@ -3,12 +3,46 @@
 <html lang="eng">
 
 <head>
+	<meta charset="UTF-8">
 	<title>Sample Work</title>
 </head>
 
 <body>
+	<header>
+		<nav> <!-- copied from index -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
+					<ul>
+						<a href="gallery.html">Gallery</a>
+					</ul>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
+					<ul>
+						<a href="audvid.html">Audio/Visual</a>
+						<a href="gd.html">Graphic Design</a>
+						<a href="webdes.html">Website Design</a>
+						<a href="animate.html">Animation</a>
+					</ul>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
 	<h1>Sample Work</h1>
 	<p>Showcased here are samples of my work over the years. If you would like to see more of a specific style or have any questions, please do not hesitate to contact me.</p>
+
+	<footer>
+		<div id = "cprt">
+			<p> Copyright &copy; 2016 Veronica Lin</p>
+		</div>
+		<div id = "ftcontact">
+			<p>
+				Veronica.Lin@drexel.edu
+			</p>
+		</div>
+	</footer>
 </body>
 
 </html>

@@ -3,14 +3,50 @@
 <html lang="eng">
 
 <head>
+	<meta charset="UTF-8"> <!-- wasn't mentioned in class but in the example; provided to include all char types for international access and to provide security? -->
 	<title>Veronica Lin</title>
 </head>
 
 <body>
-	<h1>Veronica Lin</h1>
+	<header>
+		<h1>Veronica Lin</h1>
+		<nav> <!-- typically placed in header -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
+					<ul>
+						<a href="gallery.html">Gallery</a>
+					</ul>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
+					<ul>
+						<a href="audvid.html">Audio/Visual</a>
+						<a href="gd.html">Graphic Design</a>
+						<a href="webdes.html">Website Design</a>
+						<a href="animate.html">Animation</a>
+					</ul>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main> 
 		<h2>Welcome!</h2>
 			<p>Welcome to my website! Here you will be able to find my resume, previous work, inspiration, and what I am currently working on. 
 				Please feel free to contact me with any questions! I would be more than happy to recieve feedback. </p>
+	</main>
+
+	<footer>
+		<div id = "cprt">
+			<p> Copyright &copy; 2016 Veronica Lin</p>
+		</div>
+		<div id = "ftcontact">
+			<p>
+				Veronica.Lin@drexel.edu
+			</p>
+		</div>
+	</footer>
 </body>
 
 <!-- possibly include blog like aspect?? still a work in progress -->

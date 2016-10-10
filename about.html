@@ -3,12 +3,37 @@
 <html lang="eng">
 
 <head>
+	<meta charset="UTF-8">
 	<title>About</title>
 </head>
 
 <body>
+	<header>
+		<nav> <!-- copied from index -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
+					<ul>
+						<a href="gallery.html">Gallery</a>
+					</ul>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
+					<ul>
+						<a href="audvid.html">Audio/Visual</a>
+						<a href="gd.html">Graphic Design</a>
+						<a href="webdes.html">Website Design</a>
+						<a href="animate.html">Animation</a>
+					</ul>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
 	<h1>About</h1>
 	<!-- bio is from the ci.md file -->
+	
+	<main>
 		<p>Born in Toledo, Ohio, Veronica Lin grew up with many passions. They were very diverse from sports such as basketball to music such as playing the violin. Her love for numbers and more analytical aspects came from her parents, who worked in the mathematics and accounting field. Even though there is a significant age gap between Veronica and her older brother, they still remain close and very supportive of each other.</p>
 
 		<p>One of the passions that she really fostered was her love of service. Even in elementary school Veronica had a big heart for helping others. She frequently aided a student with cerebral palsy and went on to become a peer leader to help classmates resolve difficult conflict. All throughout high school she was involved with an organization called Key Club. During her third year, she served as the Lieutenant Governor of Division 3 of Michigan.</p>
@@ -17,6 +42,21 @@
 
 		<p>Currently Veronica is a student at Drexel University. She loves pugs and enjoys eating watermelon. In her spare time, she is slowly discovering more of the city of Philadelphia. Veronica enjoys reading and crushing her opponents in a game of Monopoly Deal. She enjoys learning about other individuals and discovering the many things that they have to offer. Veronica hopes to make a difference on the world one day even as small as it could be.</p>
 		<!-- should include a photo of myself on the page as well -->
+	</main>
+	
+	<footer>
+		<div id = "cprt">
+			<p> Copyright &copy; 2016 Veronica Lin</p>
+		</div>
+		<div id = "ftcontact">
+			<p>
+				Veronica.Lin@drexel.edu
+			</p>
+		</div>
+	</footer>
+
+
+
 </body>
 
 </html>
