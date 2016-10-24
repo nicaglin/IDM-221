@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-	<!-- resume page -->
-<html lang="eng">
 
 <head>
 	<meta charset="UTF-8">
+
+	<link
+  		rel="stylesheet"
+  		href="main.css"
+  		media="screen"
+  		title="master styles"
+  		> <!-- for the css -->
+
+  	<link
+  		rel="stylesheet"
+  		href="normalize.css"
+  		media="screen"
+  		title="normalize"
+  		> <!-- to normalize for browser compatibility -->
+
 	<title>Animation</title>
 </head>
 
 <body>
 	<header>
-		
+		<div id = "logo"> <!--placeholder--></div>
 		<nav> <!-- copied from index -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
+					
+					<div class = "drop">
 					<ul>
 						<a href="gallery.html">Gallery</a>
 					</ul>
+					</div>
+
 				<li><a href="resume.html">Resume</a></li>
 				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
+					
+					<div class = "drop">
 					<ul>
 						<a href="audvid.html">Audio/Visual</a>
 						<a href="gd.html">Graphic Design</a>
 						<a href="webdes.html">Website Design</a>
 						<a href="animate.html">Animation</a>
 					</ul>
+					</div>
+
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
@@ -48,6 +69,7 @@
 				Veronica.Lin@drexel.edu
 			</p>
 		</div>
+		<div id = "social"> <!--placeholder for social media--> </div>
 	</footer>
 </body>
 

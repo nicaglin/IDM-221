@@ -1,0 +1,28 @@
+*{
+	background-color: #000000;
+	color: #d1d1e0;
+}
+
+header {
+	font-size: 1.5rem;
+}
+
+nav li a {
+	background-color: #00b8e6;
+}
+
+nav ul .drop ul a {
+	background-color: #00b8e6;
+} 
+nav ul li a:hover, nav ul li a.active {
+ 	color: #334500;
+ }
+nav ul .drop ul a:hover, nav ul .drop ul a.active {
+ 	color: #334500;	
+ }
+
+ h2 {
+ 	font-size: 2rem;
+ }
+
+ 

@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 	<!-- home page of the portfolio -->
-<html lang="eng">
 
 <head>
 	<meta charset="UTF-8"> <!-- wasn't mentioned in class but in the example; provided to include all char types for international access and to provide security? -->
+
+	<link
+  		rel="stylesheet"
+  		href="main.css"
+  		media="screen"
+  		title="master styles"
+  		> <!-- for the css -->
+
+  	<link
+        rel="stylesheet"
+  		href="normalize.css"
+  		media="screen"
+  		title="normalize"
+  	    > <!-- to normalize for browser compatibility -->
+
 	<title>Veronica Lin</title>
 </head>
 
 <body>
 	<header>
 		<h1>Veronica Lin</h1>
+
+		<div id = "logo"> <!--placeholder--></div>
+		
 		<nav> <!-- typically placed in header -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
-					<ul>
-						<a href="gallery.html">Gallery</a>
-					</ul>
+					<div class = "drop">
+						<ul>
+							<a href="gallery.html">Gallery</a>
+						</ul>
+					</div>
 				<li><a href="resume.html">Resume</a></li>
 				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
-					<ul>
-						<a href="audvid.html">Audio/Visual</a>
-						<a href="gd.html">Graphic Design</a>
-						<a href="webdes.html">Website Design</a>
-						<a href="animate.html">Animation</a>
-					</ul>
+					<div class = "drop"> 
+						<ul>
+							<a href="audvid.html">Audio/Visual</a>
+							<a href="gd.html">Graphic Design</a>
+							<a href="webdes.html">Website Design</a>
+							<a href="animate.html">Animation</a>
+						</ul>
+					</div>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
@@ -35,6 +56,8 @@
 		<h2>Welcome!</h2>
 			<p>Welcome to my website! Here you will be able to find my resume, previous work, inspiration, and what I am currently working on. 
 				Please feel free to contact me with any questions! I would be more than happy to recieve feedback. </p>
+
+		<div> <!--placeholder of possible blog--></div>
 	</main>
 
 	<footer>
@@ -46,6 +69,7 @@
 				Veronica.Lin@drexel.edu
 			</p>
 		</div>
+		<div id = "social"> <!--placeholder for social media--> </div>
 	</footer>
 </body>
 
