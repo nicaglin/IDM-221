@@ -1,68 +1,48 @@
 <!DOCTYPE html>
 
+<html>
+
 <head>
 	<meta charset="UTF-8">
 
-	<link
-  		rel="stylesheet"
-  		href="main.css"
-  		media="screen"
-  		title="master styles"
-  		> <!-- for the css -->
+	<link rel="stylesheet" href="normalize.css"> <!-- to normalize for browser compatibility -->
 
-  <link
-  		rel="stylesheet"
-  		href="normalize.css"
-  		media="screen"
-  		title="normalize"
-  		> <!-- to normalize for browser compatibility -->
-
-  	<link
-  		rel="stylesheet"
-  		href="main.css"
-  		media="screen"
-  		title="master styles"
-  		> <!-- for the css -->
+	<link rel="stylesheet" href="main.css" media="screen" title="master styles">   <!-- for the css -->
 
 	<title>Graphic Design</title>
 </head>
 
 <body>
 	<header>
-		<div id = "logo"> <!--placeholder--></div>
+
+		<h1>Graphic Design</h1>
+		
+		<div id="logo"> <!--placeholder--></div>
+		
 		<nav> <!-- copied from index -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
-					
-					<div class = "drop">
-					<ul>
-						<a href="gallery.html">Gallery</a>
-					</ul>
-					</div>
-
+						<li><ul>
+							<li><a href="gallery.html">Gallery</a></li>
+						</ul></li>
 				<li><a href="resume.html">Resume</a></li>
-				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
-					
-					<div class = "drop">
-					<ul>
-						<a href="audvid.html">Audio/Visual</a>
-						<a href="gd.html">Graphic Design</a>
-						<a href="webdes.html">Website Design</a>
-						<a href="animate.html">Animation</a>
-					</ul>
-					</div>
-
+				<li><a href="samples.html">Sample Work</a></li>
+						<li><ul>
+							<li><a href="audvid.html">Audio/Visual</a></li>
+							<li><a href="gd.html">Graphic Design</a></li>
+							<li><a href="webdes.html">Website Design</a></li>
+							<li><a href="animate.html">Animation</a></li>
+						</ul></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
+	
 	</header>
-	<h1>Graphic Design</h1>
 
 	<main>
-
-		<div id = "pics">
+			
+		<div id="pics">
 			<img src="/img/1.jpg" alt = "keep moving forward with a girl climbing">
 			<img src="/img/e.jpg" alt = "digital media poster">
 			<img src="/img/winter.jpg" alt = "library poster sign">
@@ -71,15 +51,15 @@
 	</main>
 
 	<footer>
-		<div id = "cprt">
+		<div id="cprt">
 			<p> Copyright &copy; 2016 Veronica Lin</p>
 		</div>
-		<div id = "ftcontact">
+		<div id="ftcontact">
 			<p>
 				Veronica.Lin@drexel.edu
 			</p>
 		</div>
-		<div id = "social"> <!--placeholder for social media--> </div>
+		<div id="social"> <!--placeholder for social media--> </div>
 	</footer>
 </body>
 

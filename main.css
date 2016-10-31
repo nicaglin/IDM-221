@@ -1,10 +1,21 @@
 *{
 	background-color: #000000;
 	color: #d1d1e0;
+	font-size: 16px;
+}
+
+@font-face {
+  font-family: 'DKHoneyDew';
+  src: url('/font/DKHoneyDew.eot?#iefix') format('embedded-opentype'),  url('/font/DKHoneyDew.otf')  format('opentype'),
+	     url('/font/DKHoneyDew.woff') format('woff'), url('/font/DKHoneyDew.ttf')  format('truetype'), url('/font/DKHoneyDew.svg#DKHoneyDew') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 header {
+	font-family: 'DKHoneyDew', Courier, Arial, serif;
 	font-size: 1.5rem;
+	/*font-weight: bold;*/
 }
 
 nav li a {
@@ -14,15 +25,28 @@ nav li a {
 nav ul .drop ul a {
 	background-color: #00b8e6;
 } 
+
 nav ul li a:hover, nav ul li a.active {
  	color: #334500;
  }
+
 nav ul .drop ul a:hover, nav ul .drop ul a.active {
  	color: #334500;	
  }
 
- h2 {
+h1 {
+	font-family: 'DKHoneyDew', Arial, serif;
+	font-size: 3rem;
+	font-weight: bold;
+}
+h2 {
  	font-size: 2rem;
+
  }
+
+p {
+	line-height: 1.25;
+	font-weight: 300;
+}
 
  

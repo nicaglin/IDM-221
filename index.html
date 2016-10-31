@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 	<!-- home page of the portfolio -->
 
+<html>
+
 <head>
 	<meta charset="UTF-8"> <!-- wasn't mentioned in class but in the example; provided to include all char types for international access and to provide security? -->
 
-	<link
-  		rel="stylesheet"
-  		href="normalize.css"
-  		media="screen"
-  		title="normalize"
-  		> <!-- to normalize for browser compatibility -->
+	<link rel="stylesheet" href="normalize.css"> <!-- to normalize for browser compatibility --> 
 
-  	<link
-  		rel="stylesheet"
-  		href="main.css"
-  		media="screen"
-  		title="master styles"
-  		> <!-- for the css -->
+  	<link rel="stylesheet" href="main.css" media="screen" title="master styles"> <!-- for the css -->
 
 	<title>Veronica Lin</title>
 </head>
@@ -25,28 +17,23 @@
 	<header>
 		<h1>Veronica Lin</h1>
 
-		<div id = "logo"> <!--placeholder--></div>
+		<div id="logo"> <!--placeholder--></div>
 		
 		<nav> <!-- typically placed in header -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-				<!-- thinking a nested list is necessary even though there's only going to be one subpage-->
-					<div class = "drop">
-						<ul>
-							<a href="gallery.html">Gallery</a>
-						</ul>
-					</div>
+						<li><ul>
+							<li><a href="gallery.html">Gallery</a></li>
+						</ul></li>
 				<li><a href="resume.html">Resume</a></li>
-				<li><a href="samples.html">Sample Work</a></li> <!--drop down? thinking that's with nested lists-->
-					<div class = "drop"> 
-						<ul>
-							<a href="audvid.html">Audio/Visual</a>
-							<a href="gd.html">Graphic Design</a>
-							<a href="webdes.html">Website Design</a>
-							<a href="animate.html">Animation</a>
-						</ul>
-					</div>
+				<li><a href="samples.html">Sample Work</a></li>
+						<li><ul>
+							<li><a href="audvid.html">Audio/Visual</a></li>
+							<li><a href="gd.html">Graphic Design</a></li>
+							<li><a href="webdes.html">Website Design</a></li>
+							<li><a href="animate.html">Animation</a></li>
+						</ul></li> <!--finally fixed the nested list-->
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
@@ -61,15 +48,15 @@
 	</main>
 
 	<footer>
-		<div id = "cprt">
+		<div id="cprt">
 			<p> Copyright &copy; 2016 Veronica Lin</p>
 		</div>
-		<div id = "ftcontact">
+		<div id="ftcontact">
 			<p>
 				Veronica.Lin@drexel.edu
 			</p>
 		</div>
-		<div id = "social"> <!--placeholder for social media--> </div>
+		<div id="social"> <!--placeholder for social media--> </div>
 	</footer>
 </body>
 
