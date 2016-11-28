@@ -1,65 +1,56 @@
 <!DOCTYPE html>
-	<!-- home page of the portfolio -->
-
+<!--decided to reformat from original sitemap -->
 <html>
-
 <head>
-	<meta charset="UTF-8"> <!-- wasn't mentioned in class but in the example; provided to include all char types for international access and to provide security? -->
-
-	<link rel="stylesheet" href="normalize.css"> <!-- to normalize for browser compatibility --> 
-
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" href="normalize.css"> <!-- to normalize for browser compatibility -->
   	<link rel="stylesheet" href="main.css" media="screen" title="master styles"> <!-- for the css -->
-
 	<title>Veronica Lin</title>
 </head>
 
 <body>
+	<div id="wrapper">
 	<header>
+		<p><br></p>
 		<h1>Veronica Lin</h1>
-
 		<div id="logo"> <!--placeholder--></div>
-		
+		<div class="navbar">
 		<nav> <!-- typically placed in header -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-						<li><ul>
-							<li><a href="gallery.html">Gallery</a></li>
-						</ul></li>
 				<li><a href="resume.html">Resume</a></li>
-				<li><a href="samples.html">Sample Work</a></li>
-						<li><ul>
+				<li><a href="samples.html">Samples</a></li> <!-- changed to keep one word consistency-->
+						<!--<li><ul>
 							<li><a href="audvid.html">Audio/Visual</a></li>
 							<li><a href="gd.html">Graphic Design</a></li>
 							<li><a href="webdes.html">Website Design</a></li>
 							<li><a href="animate.html">Animation</a></li>
-						</ul></li> <!--finally fixed the nested list-->
+						</ul></li> removing dropdown for invisible categorization -->
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</nav>
+		</nav></div>
 	</header>
 
 	<main> 
-		<h2>Welcome!</h2>
+		<!--<h2>Welcome!</h2>
 			<p>Welcome to my website! Here you will be able to find my resume, previous work, inspiration, and what I am currently working on. 
-				Please feel free to contact me with any questions! I would be more than happy to recieve feedback. </p>
+			<br> Please do not hesitate to contact me with any questions! I would be more than happy to recieve feedback. 
+			<br> Feel free to browse the blog below.</p>
+			commenting out the text for now. probably won't place back in -->
 
-		<div> <!--placeholder of possible blog--></div>
-	</main>
+		<div> <!--placeholder for blog; plan on columizing it--></div>
+	</main></div>
 
+	<div id="footer">
 	<footer>
-		<div id="cprt">
-			<p> Copyright &copy; 2016 Veronica Lin</p>
+		<div class="foot">
+		<div class="row">
+			<div class="column">
+			<p> Copyright &copy; 2016 Veronica Lin</p></div>
+			<div class="column"><p>Veronica.Lin@drexel.edu</p></div>
 		</div>
-		<div id="ftcontact">
-			<p>
-				Veronica.Lin@drexel.edu
-			</p>
-		</div>
-		<div id="social"> <!--placeholder for social media--> </div>
-	</footer>
+		<div id="social"> <!--placeholder for social media--> </div></div>
+	</footer></div>
 </body>
-
-<!-- possibly include blog like aspect?? still a work in progress -->
-
 </html>
