@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'DKHoneyDew';
+  src: url('DKHoneyDew.eot?#iefix') format('embedded-opentype'),  url('DKHoneyDew.otf')  format('opentype'),
+	     url('DKHoneyDew.woff') format('woff'), url('DKHoneyDew.ttf')  format('truetype'), url('DKHoneyDew.svg#DKHoneyDew') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

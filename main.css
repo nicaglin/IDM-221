@@ -127,15 +127,15 @@ p {
 .puzz .col:hover img {
   opacity: .6;
 }
-.puzz .col figcaption{
+.puzz .col .figcaption{
   color: #fff;
   font-size: 3rem;
   padding-left: 2rem;
   opacity: 0;
   position: absolute;
-  bottom: 5px;
+  bottom: 3px;
 }
-.puzz .col:hover figcaption {
+.puzz .col:hover .figcaption {
   opacity: 1;
 }
 
